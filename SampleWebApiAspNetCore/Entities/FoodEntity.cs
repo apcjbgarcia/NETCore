@@ -1,6 +1,6 @@
 ﻿namespace SampleWebApiAspNetCore.Entities
 {
-    public class FoodEntity
+    public class DrinkEntity
     {
         public int Id { get; set; }
         public string? Name { get; set; }

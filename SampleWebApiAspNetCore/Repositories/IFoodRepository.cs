@@ -3,14 +3,14 @@ using SampleWebApiAspNetCore.Models;
 
 namespace SampleWebApiAspNetCore.Repositories
 {
-    public interface IFoodRepository
+    public interface IDrinkRepository
     {
-        FoodEntity GetSingle(int id);
-        void Add(FoodEntity item);
+        DrinkEntity GetSingle(int id);
+        void Add(DrinkEntity item);
         void Delete(int id);
-        FoodEntity Update(int id, FoodEntity item);
-        IQueryable<FoodEntity> GetAll(QueryParameters queryParameters);
-        ICollection<FoodEntity> GetRandomMeal();
+        DrinkEntity Update(int id, DrinkEntity item);
+        IQueryable<DrinkEntity> GetAll(QueryParameters queryParameters);
+        ICollection<DrinkEntity> GetRandomDrink();
         int Count();
         bool Save();
     }

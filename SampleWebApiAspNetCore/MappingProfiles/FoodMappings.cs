@@ -4,13 +4,13 @@ using SampleWebApiAspNetCore.Entities;
 
 namespace SampleWebApiAspNetCore.MappingProfiles
 {
-    public class FoodMappings : Profile
+    public class DrinkMappings : Profile
     {
-        public FoodMappings()
+        public DrinkMappings()
         {
-            CreateMap<FoodEntity, FoodDto>().ReverseMap();
-            CreateMap<FoodEntity, FoodUpdateDto>().ReverseMap();
-            CreateMap<FoodEntity, FoodCreateDto>().ReverseMap();
+            CreateMap<DrinkEntity, DrinkDto>().ReverseMap();
+            CreateMap<DrinkEntity, DrinkUpdateDto>().ReverseMap();
+            CreateMap<DrinkEntity, DrinkCreateDto>().ReverseMap();
         }
     }
 }

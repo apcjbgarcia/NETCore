@@ -2,7 +2,7 @@
 
 namespace SampleWebApiAspNetCore.Dtos
 {
-    public class FoodCreateDto
+    public class DrinkCreateDto
     {
         [Required]
         public string? Name { get; set; }

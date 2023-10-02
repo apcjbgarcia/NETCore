@@ -1,6 +1,6 @@
 ﻿namespace SampleWebApiAspNetCore.Dtos
 {
-    public class FoodDto
+    public class DrinkDto
     {
         public int Id { get; set; }
         public string? Name { get; set; }
